@@ -1,10 +1,8 @@
 package GFG;
 
 // Java program to illustrate creating an array of integers,  puts some values in the array, and prints each value to standard output.
-
 public class ArrayOfInts {
-    public static void main (String[] args)
-    {        
+    public static void main (String[] args){        
       // declares an Array of integers.
       int[] arr;
          
