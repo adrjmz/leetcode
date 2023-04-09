@@ -1,3 +1,8 @@
+# path: leetcode\python\0125-valid-palindrome.py
+# link https://leetcode.com/problems/valid-palindrome/
+# date 2023-04-07
+# leetcode: Easy
+
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         l, r = 0, len(s) - 1
@@ -20,18 +25,18 @@ class Solution:
                 (ord('0') <= ord(c) <= ord('9')))
 
     def isPalindromeNonHelper(self, s: str) -> bool:
-        i = 0
-        j = len(s) - 1
-        while i < j:
-            if not s[i].isalnum():
-                i += 1
+        l = 0
+        r = len(s) - 1
+        while l < r:
+            if not s[l].isalnum():
+                l += 1
                 continue
-            if not s[j].isalnum():
-                j -= 1
+            if not s[r].isalnum():
+                r -= 1
                 continue
-            if s[i].lower() != s[j].lower():
+            if s[l].lower() != s[r].lower():
                 return False
             else:
-                i += 1
-                j -= 1
+                l += 1
+                r -= 1
         return True

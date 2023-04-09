@@ -1,3 +1,8 @@
+# path: leetcode\python\0001-two-sum.py
+# link https://leetcode.com/problems/two-sum/
+# date 2023-04-07
+# leetcode: Easy
+
 from ast import List
 
 class Solution:

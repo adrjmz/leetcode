@@ -1,3 +1,8 @@
+# path: leetcode\python\0217-contains-duplicate.py
+# link https://leetcode.com/problems/contains-duplicate/
+# date 2023-04-07
+# leetcode: Easy
+
 from ast import List
 
 class Solution:

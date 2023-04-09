@@ -1,4 +1,8 @@
-# Path: leetcode\python\0021-merge-two-sorted-lists.py
+# Path: leetcode\python\0020-valid-parentheses.py
+# link https://leetcode.com/problems/valid-parentheses/
+# date 2023-04-07
+# leetcode: Easy
+
 class Solution:
     def isValid(self, s: str) -> bool:
         store = {")": "(", "]": "[", "}": "{"}

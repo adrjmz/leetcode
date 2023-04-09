@@ -1,3 +1,8 @@
+# path: leetcode\python\0242-valid-anagram.py
+# link https://leetcode.com/problems/valid-anagram/
+# date 2023-04-07
+# leetcode: Easy
+
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):
