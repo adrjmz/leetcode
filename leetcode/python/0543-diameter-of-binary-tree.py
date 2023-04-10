@@ -19,12 +19,12 @@ class Solution:
 
         def dfs(root):
             if not root:
-                return -1
+                return -1 # returns -1 because we are adding 1 to the height of the tree, this is an empty tree
             left = dfs(root.left)
             right = dfs(root.right)
-            res[0] = max(res[0], 2 + left + right)
+            res[0] = max(res[0], 2 + left + right) # returns the equation for finding the diameter of the tree
 
-            return 1 + max(left, right)
+            return 1 + max(left, right) # returns the equation for finding the height of the tree
         
         dfs(root)
         return res[0]
