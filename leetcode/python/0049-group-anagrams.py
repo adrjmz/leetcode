@@ -3,7 +3,7 @@
 # 2023-04-10
 # leetcode: Medium
 
-import collections
+from collections import defaultdict
 from typing import List
 
 class Solution:
