@@ -3,6 +3,8 @@
 # 2023-04-10
 # leetcode: Easy
 
+from typing import List
+
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
         one = 1
