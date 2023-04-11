@@ -10,3 +10,4 @@ class Solution:
             n &= n - 1
             res += 1
         return res
+        # return bin(n)[2:].count("1")
