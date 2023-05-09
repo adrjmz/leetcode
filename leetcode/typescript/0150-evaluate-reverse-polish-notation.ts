@@ -8,7 +8,7 @@
  */
 
 function evalRPN(tokens: string[]): number {
-	let stack: number[] = [];
+	let stack: any[] = [];
 
 	for (let token of tokens) {
 		if (token === "+") {
@@ -25,4 +25,5 @@ function evalRPN(tokens: string[]): number {
 			stack.push(Number(token));
 		}
 	}
+	return stack[0];
 }
